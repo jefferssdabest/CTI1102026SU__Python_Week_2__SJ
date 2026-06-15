@@ -17,12 +17,12 @@ def getInteger(prompt):
             print("Invalid input. Please enter an integer.")
             
 
-def _calcExponents():
+def calcExponents():
     BASE_NUM = getInteger("Enter a integer as the base value: ")
     EXP_NUM = getInteger("Enter a integer as the exponent: ")
     print("\n") # two spaces
     PRODUCT = BASE_NUM ** EXP_NUM
-    print (f{BASE_NUM} raised to the power of {EXP_NUM} is {PRODUCT} !!")
+    print (f"{BASE_NUM} raised to the power of {EXP_NUM} is {PRODUCT} !!")
     return
 
 
