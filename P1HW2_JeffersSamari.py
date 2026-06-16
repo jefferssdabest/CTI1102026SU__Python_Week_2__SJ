@@ -19,7 +19,7 @@ questions = (
 # label to bind them to.
 #
 # For each question:
-# Check that the expected data type is not an integer
+# Check that the expected data type is an integer
 #   otherwise, use the input function to gather raw input from the user.
 #   store that info in a dictionary with the provided label.
 #
